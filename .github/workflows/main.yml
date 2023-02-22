@@ -1,7 +1,7 @@
 name: UiPathBuildDeploy
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
  remove-old-artifacts:
     runs-on: windows-latest
